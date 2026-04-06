@@ -1,35 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chicago & Illinois Election Maps</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'DM Sans', sans-serif; background: #f4f3f0; color: #1a1a1a; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
-  .container { max-width: 600px; width: 100%; padding: 40px 24px; }
-  h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; color: #111; text-align: center; }
-  .sub { font-size: 13px; color: #999; text-align: center; margin-top: 6px; margin-bottom: 32px; }
-  .card {
-    display: block;
-    background: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 20px 24px;
-    margin-bottom: 12px;
-    text-decoration: none;
-    color: inherit;
-    transition: border-color 0.15s, box-shadow 0.15s;
-  }
-  .card:hover { border-color: #aaa; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
-  .card .label { font-size: 11px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 1.2px; }
-  .card .title { font-size: 18px; font-weight: 700; color: #111; margin-top: 4px; }
-  .card .detail { font-size: 13px; color: #888; margin-top: 4px; }
-  .footer { text-align: center; font-size: 11px; color: #ccc; margin-top: 32px; }
-</style>
-</head>
-<body>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'DM Sans',sans-serif;background:#f4f3f0;color:#1a1a1a;min-height:100vh;display:flex;align-items:center;justify-content:center;}
+  .container{max-width:600px;width:100%;padding:40px 24px;}
+  h1{font-size:28px;font-weight:700;letter-spacing:-0.5px;color:#111;text-align:center;}
+  .sub{font-size:13px;color:#999;text-align:center;margin-top:6px;margin-bottom:32px;}
+  .card{display:block;background:white;border:1px solid #e0e0e0;border-radius:12px;padding:20px 24px;margin-bottom:12px;text-decoration:none;color:inherit;transition:border-color 0.15s,box-shadow 0.15s;}
+  .card:hover{border-color:#aaa;box-shadow:0 2px 12px rgba(0,0,0,0.06);}
+  .card .label{font-size:11px;font-weight:600;color:#aaa;text-transform:uppercase;letter-spacing:1.2px;}
+  .card .title{font-size:18px;font-weight:700;color:#111;margin-top:4px;}
+  .card .detail{font-size:13px;color:#888;margin-top:4px;}
+  .footer{text-align:center;font-size:11px;color:#ccc;margin-top:32px;}
+</style></head><body>
 <div class="container">
   <h1>Chicago & Illinois Election Maps</h1>
   <div class="sub">Interactive precinct-level heat maps · Hover for full results</div>
@@ -38,6 +23,12 @@
     <div class="label">2023 Chicago Aldermanic & Mayoral Runoff</div>
     <div class="title">Ward 1</div>
     <div class="detail">Aldermanic (La Spata, Royko, Schneider, Moreno) + Mayoral Runoff (Johnson vs Vallas) · 26 precincts</div>
+  </a>
+
+  <a class="card" href="chicago_ward_43_all_races.html">
+    <div class="label">2023 Chicago Aldermanic & Mayoral</div>
+    <div class="title">Ward 43</div>
+    <div class="detail">Aldermanic Initial + Runoff (Knudsen vs Comer) + Mayoral Runoff (Johnson vs Vallas) · 23 precincts</div>
   </a>
 
   <a class="card" href="il_house_district_12.html">
@@ -53,6 +44,4 @@
   </a>
 
   <div class="footer">Data: Chicago Board of Elections · Illinois State Board of Elections</div>
-</div>
-</body>
-</html>
+</div></body></html>
